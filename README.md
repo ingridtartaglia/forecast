@@ -6,3 +6,5 @@ Technologies used:
 - Bootstrap
 - JavaScript (jQuery)
 - Font Awesome
+- Google Maps Geolocation API
+- Forecast.io API
