@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>#7 - Forecast</title>
+        <link type="text/css" rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="lib/weather-icons.min.css">
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <p class="loading"><i class="fa fa-spinner fa-pulse fa-5x"></i></p>
+        <div class="container">
+            <div class="jumbotron" style="display:none;">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6" id="location-placeholder">
+                        <p class="text-center" id="location-address"></p>
+                        <p class="text-center"><span id="location-icon"></span></p>
+                        <p class="text-center location-current-temperature"><span id="location-temperature-now"></span>&deg; C</p>
+                        <p class="text-center" id="location-weather-now"></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6" id="forecast-placeholder">
+                        <p class="forecast-today-description">Today: <span id="forecast-today"></span></p>
+                        <p class="forecast-today-maxmin">Max: <span id="forecast-max"></span>&deg; C</p>
+                        <p class="forecast-today-maxmin">Min: <span id="forecast-min"></span>&deg; C</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
