@@ -14,13 +14,13 @@ body {
 @media screen and (min-width: 768px) {
     .jumbotron {
         margin-top: 5em;
-        padding: 0 4em;
+        padding: 2em 4em;
     }
 }
 @media screen and (max-width: 768px) {
     .jumbotron {
         margin-top: 2em;
-        padding: 0 2em;
+        padding: 1em 2em;
     }
 }
 
