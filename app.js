@@ -24,7 +24,8 @@ $(document).ready(function(){
                     $("#forecast-today").append(data.daily.data[0].summary);
                     $("#forecast-max").append(((data.daily.data[0].temperatureMax - 32) * 5/9).toFixed(0));
                     $("#forecast-min").append(((data.daily.data[0].temperatureMin - 32) * 5/9).toFixed(0));
-                    $("body").css("background-image", "url('img/"+ data.currently.icon + ".jpg')");
+                    $("body").css({"background": "url('img/"+ data.currently.icon + ".jpg') no-repeat center center fixed",
+                                    "background-size": "cover"});
                     $(".loading").hide();
                     $(".jumbotron").show();
                 }
